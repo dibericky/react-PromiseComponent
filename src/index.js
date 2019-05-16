@@ -7,7 +7,7 @@ import PromiseComponent from "./PromiseComponent";
 const fun = () =>
   new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("CIAOOO");
+      resolve("Promise resolved!");
     }, 3000);
   });
 
